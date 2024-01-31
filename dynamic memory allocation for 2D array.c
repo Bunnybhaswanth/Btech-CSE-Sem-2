@@ -14,7 +14,7 @@ int main(){
     printf("the elements of the 2D array :\n");
     for(i=0;i<r;i++){
 		for(j=0;j<c;j++){
-			printf("%d",*ptr+i*c+j);
+			printf("%d",*(ptr+i*c+j));
 		}
 		printf("\n");
     }
